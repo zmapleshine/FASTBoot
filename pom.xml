@@ -8,4 +8,5 @@
     <artifactId>FASTBoot</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <description>FASTBoot是基于SpringBoot，SpringCloud开发的一套全开箱即用的企业级服务端基础框架。</description>
 </project>
