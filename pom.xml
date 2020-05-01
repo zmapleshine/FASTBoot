@@ -10,6 +10,7 @@
     <modules>
         <module>fastboot-dependencies</module>
         <module>fastboot-test</module>
+        <module>fastboot-starter-parent</module>
     </modules>
     <packaging>pom</packaging>
     <name>FASTBoot Framework</name>
