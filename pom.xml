@@ -4,13 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.zmapleshine</groupId>
+    <groupId>com.github</groupId>
     <artifactId>FASTBoot</artifactId>
     <version>${revision}</version>
     <modules>
         <module>fastboot-dependencies</module>
+        <module>fastboot-infrastructure</module>
+        <module>fastboot-starters</module>
         <module>fastboot-test</module>
-        <module>fastboot-starter-parent</module>
     </modules>
     <packaging>pom</packaging>
     <name>FASTBoot Framework</name>
