@@ -4,17 +4,21 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>FASTBoot</artifactId>
-        <groupId>com.github</groupId>
+        <groupId>com.github.fastboot</groupId>
         <version>${revision}</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>fastboot-test</artifactId>
+    <packaging>pom</packaging>
 
+    <modules>
+        <module>spring-boot-test</module>
+    </modules>
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>com.github</groupId>
+                <groupId>com.github.fastboot</groupId>
                 <artifactId>fastboot-dependencies</artifactId>
                 <version>${revision}</version>
                 <type>pom</type>
@@ -22,12 +26,5 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-    </dependencies>
 
 </project>
